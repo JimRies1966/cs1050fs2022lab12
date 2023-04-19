@@ -3,7 +3,7 @@
 #######################
 
 # Setup default compiler, compile options, and link options
-CC=cc
+CC=gcc
 COPTS = -c -std=c11 -Wall -Werror -pedantic-errors
 LOPTS = -L/group/cs1050/lib -lm -L. -lfight
 
